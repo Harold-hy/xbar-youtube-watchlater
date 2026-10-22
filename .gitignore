@@ -1,0 +1,6 @@
+.DS_Store
+*.tsv
+*.log
+*.tmp
+*.jpg
+cookies*.txt
