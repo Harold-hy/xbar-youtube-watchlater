@@ -1,10 +1,9 @@
-# xbar – YouTube « À regarder plus tard » 🇫🇷
+# 🇫🇷 xbar – YouTube « À regarder plus tard »
 Plugin [xbar](https://github.com/matryer/xbar) qui affiche, dans la barre de menus macOS, 5 vidéos tirées au hasard de votre playlist YouTube « À regarder plus tard », avec leurs miniatures. Un clic ouvre la vidéo dans votre navigateur.
-🇫🇷 [Français](#xbar--youtube--à-regarder-plus-tard-)
 
-# xbar – YouTube « Watch Later » 🇬🇧
+# 🇬🇧 xbar – YouTube « Watch Later »
 xbar plugin that shows 5 random videos from your YouTube "Watch Later" playlist in the macOS menu bar, with their thumbnails. Click a video to open it in your browser.
-🇬🇧 [English](#xbar--youtube-watch-later)
+_See below for the English version_
 
 Plugin [xbar](https://github.com/matryer/xbar) qui affiche, dans la barre de menus macOS, 5 vidéos tirées au hasard de votre playlist YouTube « À regarder plus tard », avec leurs miniatures. Un clic ouvre la vidéo dans votre navigateur.
 
