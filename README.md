@@ -1,6 +1,7 @@
 # xbar – YouTube « À regarder plus tard » / xbar – YouTube « Watch Later »
+🇫🇷 [Français](#xbar--youtube--à-regarder-plus-tard-) · 🇬🇧 [English](#xbar--youtube-watch-later)
 
-_English below_
+_See below for the English version_
 
 Plugin [xbar](https://github.com/matryer/xbar) qui affiche, dans la barre de menus macOS, 5 vidéos tirées au hasard de votre playlist YouTube « À regarder plus tard », avec leurs miniatures. Un clic ouvre la vidéo dans votre navigateur.
 
@@ -27,3 +28,31 @@ Pour Safari, donner à xbar l'« Accès complet au disque » (Réglages système
 
 ## Pourquoi yt-dlp ?
 L'API YouTube Data ne donne pas accès à la playlist « À regarder plus tard ». yt-dlp la lit localement grâce à la session de votre navigateur. Aucune donnée personnelle n'est stockée dans ce dépôt ; le cache est dans `~/Library/Caches/xbar-youtube-wl`.
+
+------------------------------------------------------------------------------------------------
+
+# xbar – YouTube "Watch Later"
+
+[xbar](https://github.com/matryer/xbar) plugin that shows 5 random videos from your YouTube "Watch Later" playlist in the macOS menu bar, with their thumbnails. Click a video to open it in your browser.
+
+## Requirements
+- macOS and xbar
+- yt-dlp: `brew install yt-dlp`
+- A browser signed in to YouTube: Chrome, Brave, Firefox, Edge, Vivaldi, Opera, Chromium or Safari
+
+## Installation
+1. Copy `youtube-watchlater.30m.sh` to `~/Library/Application Support/xbar/plugins/`
+2. Make it executable: `chmod +x youtube-watchlater.30m.sh`
+3. Run it once in Terminal and allow Keychain access if macOS asks
+4. In xbar: Refresh all
+
+For Safari, grant xbar "Full Disk Access" (System Settings → Privacy & Security).
+
+## Settings (at the top of the script)
+- `NB_VIDEOS`: number of videos displayed
+- `BROWSER`: `auto` (detection) or a specific browser, e.g. `firefox`, `chrome:Profile 1`
+- `OPEN_IN`: `auto` (same browser), `default` (system default browser) or an application name
+- `SHOW_THUMBS` / `THUMB_WIDTH`: show thumbnails and set their size
+
+## Why yt-dlp?
+The YouTube Data API does not give access to the "Watch Later" playlist. yt-dlp reads it locally using your browser session. No personal data is stored in this repository; the cache lives in `~/Library/Caches/xbar-youtube-wl`.
