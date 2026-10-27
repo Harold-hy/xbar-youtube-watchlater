@@ -28,7 +28,7 @@ Pour Safari, donner à xbar l'« Accès complet au disque » (Réglages système
 ## Pourquoi yt-dlp ?
 L'API YouTube Data ne donne pas accès à la playlist « À regarder plus tard ». yt-dlp la lit localement grâce à la session de votre navigateur. Aucune donnée personnelle n'est stockée dans ce dépôt ; le cache est dans `~/Library/Caches/xbar-youtube-wl`.
 
-🇬🇧 # xbar – YouTube "Watch Later"
+# 🇬🇧 xbar – YouTube "Watch Later"
 
 [xbar](https://github.com/matryer/xbar) plugin that shows 5 random videos from your YouTube "Watch Later" playlist in the macOS menu bar, with their thumbnails. Click a video to open it in your browser.
 
