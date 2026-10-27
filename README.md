@@ -1,4 +1,4 @@
-# xbar – YouTube « À regarder plus tard » / xbar – YouTube « Watch Later »
+# xbar – YouTube « À regarder plus tard / Watch Later »
 🇫🇷 [Français](#xbar--youtube--à-regarder-plus-tard-) · 🇬🇧 [English](#xbar--youtube-watch-later)
 
 🇫🇷
