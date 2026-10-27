@@ -5,6 +5,7 @@ Plugin [xbar](https://github.com/matryer/xbar) qui affiche, dans la barre de men
 xbar plugin that shows 5 random videos from your YouTube "Watch Later" playlist in the macOS menu bar, with their thumbnails. Click a video to open it in your browser.
 _See below for the English version_
 
+## Aperçu
 Plugin [xbar](https://github.com/matryer/xbar) qui affiche, dans la barre de menus macOS, 5 vidéos tirées au hasard de votre playlist YouTube « À regarder plus tard », avec leurs miniatures. Un clic ouvre la vidéo dans votre navigateur.
 
 <img width="576" height="605" alt="Capture d’écran 2026-10-22 à 14 26 27" src="https://github.com/user-attachments/assets/32b09e78-ba9a-465c-9f7d-54e99c4aa698" />
